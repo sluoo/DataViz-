@@ -1,5 +1,6 @@
 library(tidyverse)
 library(ggplot2)
+setwd("~/Stat744")
 
 #Import Data
 df <- read.csv("vaccine.csv")
