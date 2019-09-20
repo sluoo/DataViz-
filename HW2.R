@@ -12,7 +12,8 @@ df <- read.csv("vaccine.csv")
 #I believe the visualization is trying to illustrate that the introduction of vaccines has
 #drastically decreased the number of cases of several infectious diseases. It is visualizing 
 #the number of cases in a form a circle. Everyone can see the circles shrinking as the years 
-#advance along with when the licensing of the vaccine was established with a yellow circle. The plot is also interactive allowing users to hover over the circles detailing more information. 
+#advance along with when the licensing of the vaccine was established denoted by yellow circles. 
+
 
 
 length(unique(df$disease)) #9 diseases 
@@ -61,10 +62,10 @@ plot2
 #original graph
 
 #My first graph is much better than the second graph or the original graph. 
-#Though the second and original graph is create and interactive, it is 
+#Though the second and original graph seem to be more visually appealing,
 #the information is not very clear or insightful compared to my first graph.
-#The size of the circles is incorrectly proportioned and difficult to interpret 
-#because the overlapping makes it difficult to differentiate each year. 
+#The size of the circles is incorrectly proportioned and the overlapping of the circles
+#makes it difficult to differentiate each year. 
 #In comparison, the first graph allows us to observe and understand which diseases were 
 #more prevalent in the US during specific time periods whereas the circles are a little 
 #less obvious. Additionally, the overall dynamics of each disease is easier to interpret 
