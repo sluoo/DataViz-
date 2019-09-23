@@ -1,6 +1,8 @@
 library(tidyverse)
 library(ggplot2)
-setwd("~/Stat744")
+
+## This should not be part of a script that you share, because not everyone has the same directory structure.
+## setwd("~/Stat744")
 
 #Import Data
 df <- read.csv("vaccine.csv")
@@ -14,10 +16,7 @@ df <- read.csv("vaccine.csv")
 #the number of cases in a form a circle. Everyone can see the circles shrinking as the years 
 #advance along with when the licensing of the vaccine was established denoted by yellow circles. 
 
-
-
 length(unique(df$disease)) #9 diseases 
-
 
 #Extract vaccination licensing information
 #Create new data frame
@@ -30,6 +29,8 @@ df2 <- data.frame(disease1,year1,count1,vac1)
 df2<- df2[-c(4,9,12),] #remove repeats
 df2 <- df2[,c(1:3)]
 
+## How did you choose the order of the diseases? Could you have done a better job? What about the colors?
+## Did you consider log vs.~linear scaling?
 
 #First plot 
 plot1 <- ggplot(df, aes(x=year,y=cases/1e5,color=disease)) + 
@@ -43,6 +44,7 @@ plot1 <- ggplot(df, aes(x=year,y=cases/1e5,color=disease)) +
 
 plot1
 
+## Nice job with the rescaling (100,000) and with the scale_size_area.
 #Another figure 
 plot2<- ggplot(df, aes(x = year, y = disease, size = cases/1e5)) + 
   geom_point(shape = 21, colour = "black", fill = "#40b8d0") + 
@@ -72,4 +74,4 @@ plot2
 #compared to the circles. For example, the rise and fall of measles is clearer in 
 #the first graph. 
 
-
+## JD 2/3 (Good)
