@@ -1,0 +1,27 @@
+LatentClasses C1 C2 C3 C4	
+SizePercent 36 30 21 13 
+Month1 	 	 	 	 
+No.pain 0.09 0.53 0.00 0.01 
+Mild-moderate.pain 0.81 0.46 0.04 0.54 
+High.pain 0.11 0.01 0.96 0.45 
+Month2 	 	 	 	 
+No.pain 0.06 0.67 0.00 	0.01 
+Mild-moderate.pain 0.87 0.33 0.06 0.64 
+High.pain 0.07 	0.00 0.94 0.35 
+Month3 	 	 	 	 
+No.pain 0.09 0.74 0.00 0.00 
+Mild-moderate.pain 0.89 0.26 0.03 0.30 
+High.pain 0.02 0.00 0.97 0.70 
+Month4 	 	 	 	 
+No.pain 0.08 0.79 0.00 0.00 
+Mild-moderate.pain 0.91 0.21 0.02 0.40 
+High.pain 0.01 0.00 0.98 0.60 
+Month5 	 	 	 	 
+No.pain 0.10 0.85 0.00 0.01 
+Mild-moderate.pain 0.83 0.15 0.07 0.60 
+High.pain 0.07 0.00 0.93 0.39 
+Month6 	 	 	 	 
+No.pain 0.13 0.79 0.00 0.01 
+Mild-moderate.pain 0.79 0.21 0.01 0.52 
+High.pain 0.07 0.00 0.99 0.48
+ 
