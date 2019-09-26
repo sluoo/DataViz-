@@ -1,6 +1,5 @@
-LatentClasses C1 C2 C3 C4	
-Class% 36 30 21 13
-Items  	 	 	 
+Items  C1 C2 C3 C4	
+Class% 36 30 21 13 	 	 	 
 1No.pain 0.09 0.53 0.00 0.01 
 1Mild-moderate.pain 0.81 0.46 0.04 0.54 
 1High.pain 0.11 0.01 0.96 0.45  	 	 	 	 
