@@ -11,7 +11,7 @@ library(ggpubr)
 
 #Responses to back pain survey
 #Paper used Latent Class Analysis 
-df <- read_table2("LCAdataHW3.txt") 
+df <- read_table2("LCAdataHW3.txt") #datafile in repository 
 df <- df[,-6] #remove last column 
 
 
