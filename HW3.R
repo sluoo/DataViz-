@@ -74,14 +74,14 @@ annotate_figure(plot1,
 #asking individual's level of pain each month. The responses were reported on a Likert-type 
 #scale - no pain, mild-moderate pain and high pain. Interpreting and characterizing the 
 #latent classes are heavily dependent on the conditional item response probabilities. I feel
-#depicting these probabilities graphically eases interpretation. For a specific response, 
+#depicting these probabilities graphically eases the interpretation. For a specific response, 
 #you can view the pattern/trend of the probabilities across the 6 months for each latent class.
-#For example, those who are in the recovering latent class (graph 1) will have a higher 
-#probability of having no pain across the 6 months and those with severe/chronic pain have a 
-#lower probability of responding non pain in the 6 months. Similar interpretations can be made 
-#for the remaining two graphs.  Additionally, an important quality of latent class model (LCM) 
-#is high class separation. In these graphs, we can distinguish between the classes thus it has 
-#relatively high-class separation. This confirms with the labels/interpretation that the 
-#authors have chosen. 
+#For example in graph 1, those who are in the recovering latent class will have a higher 
+#probability of having no pain across the 6 months compared to those in the severe/chronic pain latent class who
+#have a lower probability of responding to no pain in the 6 months. Similar interpretations can be made 
+#for the remaining two graphs. Additionally, an important quality of latent class models
+#is high class separation. In these graphs, the classes are distingushable from each other (no lines crossing each other)
+#thus it has high-class separation. Therefore I feel more confident of the labels/interpretation that the authors have 
+#given to the analysis. 
 
 
