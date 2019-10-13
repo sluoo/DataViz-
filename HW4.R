@@ -53,13 +53,13 @@ g1
 
 #Explaintion of design choice: 
 
-#Since we are comparing proportions, I believe a stacked bar plot best represented the results of 
-#the simulation.  The main goal of the study was to establish if a superior fit index for class 
-#enumeration existed. I felt placing the ICs at the top x-axis would highlight this goal better.
-#The true number of latent classes labelled with each model for more clarity. For a cleaner appearance, 
+#Since we are comparing proportions, I believe a stacked bar plot would represent the results of 
+#the simulation nicely. The main goal of the study was to establish if a superior fit index for class 
+#enumeration existed. I felt placing the ICs at the top x-axis would best highlight this goal.
+#The true number of latent classes was also labelled with each model for more clarity. For a cleaner appearance, 
 #I chose the classic theme and outlined the bars in black. I added labels since some of the values
 #were difficult to differentiate such as graph row 1 column 1. I avoided plotting labels for values
-#less than 10. 
+#less than 10 since they weren't too important. 
 
 
 
