@@ -3,6 +3,9 @@ library(tidyverse)
 library(LaCroixColoR)
 library(readr)
 
+#Source: 
+#https://doi.org/10.1080/10705510701575396
+
 
 df <-read_csv("simulationsLCA.csv")
 
@@ -33,7 +36,7 @@ df1 <-(df1
 #Plot, label bars where percentage is greater than 10
 #Also change width of bar so it's not so squished
 g1 <- ggplot(df1, aes(x=SampleSize,y=pct, fill=Class)) + 
-  geom_bar(stat="identity",width=0.8,color="black",lwd=0.1) + 
+  geom_bar(stat="identity",width=0.9,color="black",lwd=0.1) + 
   facet_grid(PopulationLC + Simulation ~ IC) +
   geom_text(aes(label=ifelse(pct >=10, paste0(pct,"%"),"")),size=3,
             position=position_stack(vjust=0.5), colour="black")
