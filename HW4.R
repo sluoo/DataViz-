@@ -5,7 +5,7 @@ library(readr)
 
 #Source: 
 #https://doi.org/10.1080/10705510701575396
-
+#Table 7
 
 df <-read_csv("simulationsLCA.csv")
 
