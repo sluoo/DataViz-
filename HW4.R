@@ -5,6 +5,7 @@ library(readr)
 
 #Source: 
 #https://doi.org/10.1080/10705510701575396
+# https://www.tandfonline.com.libaccess.lib.mcmaster.ca/doi/full/10.1080/10705510701575396
 #Table 7
 
 df <-read_csv("simulationsLCA.csv")
@@ -61,6 +62,7 @@ g1
 #were difficult to differentiate such as graph row 1 column 1. I avoided plotting labels for values
 #less than 10 since they weren't too important. 
 
+## JD: I can't figure out what's going on here at all. What kind of proportions are you comparing? What do you think you found? Which part of this is statistical inference? Please summarize the study (don't rely on me to read a long, deep paper (which you didn't even ask me to read, I'm glad I even noticed the "source" link), and some more explanation, and resubmit.
 
 
 
