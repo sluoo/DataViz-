@@ -25,14 +25,14 @@ df1 <- (df1
         %>% mutate(
           PopulationLC = factor(PopulationLC,levels=sort(unique(PopulationLC)),
                                 labels = c("True Model K=3", 
-                                           "True Model K = 4"))))
+                                           "True Model K=4"))))
 df1 <-(df1
        %>% mutate(
          Simulation = factor(Simulation,levels = paste0("Sim",c(4,1:3)),
-                              labels = c("10-Item (CUQ)",
-                                         "8-Item (SQ)",
-                                         "8-Item (SUQ)",
-                                        "15-Item (SE)"))))
+                              labels = c("10-items (C-Ueq)",
+                                         "8-items (S-Eq)",
+                                         "8-items (S-Ueq)",
+                                        "15-items (S-Ueq)"))))
 
 #Plot, label bars where percentage is greater than 10
 #Also change width of bar so it's not so squished
@@ -64,7 +64,30 @@ g1
 
 ## JD: I can't figure out what's going on here at all. What kind of proportions are you comparing? What do you think you found? Which part of this is statistical inference? Please summarize the study (don't rely on me to read a long, deep paper (which you didn't even ask me to read, I'm glad I even noticed the "source" link), and some more explanation, and resubmit.
 
+## 
+ ######UPDATE with JD comments
+###
 
+#Information criterions (ICs) were examined over a range of modelling conditions to 
+#determine which IC best recovered the correct number of latent classes.
+
+#4 populations models with the known number of classes were considered that varied
+#in number of items, model complexity (simple-S/complex-C) and class size (equal-E or unequal (Ueq)). 
+#Samples of size 200, 500 and 1000 were generated from these structures with 500 replications each. 
+
+#For each replication, LCA models were fit testing 2- through 6- class solution and AIC, CAIC, BIC and 
+#adjusted BIC were recorded for each analysis. Proportions reflect the number of times where the lowest 
+#values occurred across each model for each IC. 
+
+#For example, looking at the "8-item(S-Eq)" model (which is a true 4-class solution), for sample size 500,
+#the lowest values of AIC occurred at the 4-class model 41% of the time and 100% of the CAIC, BIC and 
+#adjusted BIC. 
+
+#We infer that the AIC is the worst of all ICs, consistently overestimating the number of
+#latent classes across modelling conditions. It seems the ABIC is the best followed by BIC. 
+#Also, as sample size decreased so did accuracy for all ICs. Further conclusions can be made related 
+#the structures of the model, but I will end it here since it requires more explanation of 
+#latent class models. 
 
 
 
