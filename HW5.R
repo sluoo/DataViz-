@@ -98,6 +98,8 @@ ggplotly(p2)
 #was a much better choice. The legend should be organized by size but after many attempts, I can’t 
 #seem to figure it out. Also, I wanted each country to be represented by a different color. I'm 
 #not sure why the colors are repeated. Is there a restriction to the palette I chose?
+#For another improvements, I could represent countries in the same region with the same color and 
+#indicate it in the legend. Rather than having the countries listed in the legend. 
 
 
 
