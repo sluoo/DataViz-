@@ -84,18 +84,19 @@ ggplotly(p2)
 # countries in the data. So please refer to ramen-ratings_edit.csv file in my respository. 
 
 #Plot 1: 
-# I wanted to show the which brands had the most types of ramen. It was challenging since there were 
-#355 brands which is why I chose a word cloud (I also wanted to experiment with this package). It 
-#doesn’t convey much but it highlights the main brands.  Originally it was very cluttered and messy so I 
-#removed brands that had less than 8 types of ramen. 
+# I wanted to show which brands produced the most variety of ramen. It was challenging with 
+#355 brands so I chose a word cloud (I also wanted to experiment with this package). It 
+#doesn’t convey much but it highlights the main brands. Originally it was very cluttered and messy so I 
+#removed brands that had less than 8 types of ramen.  
 
 #Plot 2: 
-#The first plot was not a very good choice because it lacks information. In this plot, it shows that Asian 
-#countries along with the United States dominate the ramen industry. They are the largest producers 
-#and rated the highest with most being above the average line.  Initially I plotted a regular ggplot and 
+#The word cloud above lacks information, it doesn't tell us much about the country or overall rating. 
+#In this plot, it shows that Asian countries along with the United States dominate the ramen industry.
+#They are the largest producers 
+#and rated the most highly with most being above the average line. Initially I plotted a regular ggplot and 
 #labeled it using ggrepel but it was messy even after abbreviating the country names. An interactive plot 
 #was a much better choice. The legend should be organized by size but after many attempts, I can’t 
-#seem to get it right.   
+#seem to figure it out...   
 
 
 
