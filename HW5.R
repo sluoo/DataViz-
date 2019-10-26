@@ -96,7 +96,8 @@ ggplotly(p2)
 #and rated the most highly with most being above the average line. Initially I plotted a regular ggplot and 
 #labeled it using ggrepel but it was messy even after abbreviating the country names. An interactive plot 
 #was a much better choice. The legend should be organized by size but after many attempts, I can’t 
-#seem to figure it out...   
+#seem to figure it out. Also, I wanted each country to be represented by a different color. I'm 
+#not sure why the colors are repeated. Is there a restriction to the palette I chose?
 
 
 
