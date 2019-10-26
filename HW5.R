@@ -35,6 +35,7 @@ wc <- wordcloud(words = SumVariety$Brand, freq = SumVariety$TotalVariety,
           random.order=FALSE, rot.per=0.30, 
           colors=brewer.pal(9 ,"Dark2"), res=500)
 
+wc
 
 ### PLOT 2 ###
 
@@ -76,6 +77,25 @@ p2 <- p1 + scale_size_area(max_size = 8) + theme(legend.title = element_blank())
 ggplotly(p2)
 
 
+######## 
+# This data was retrived from Kaggle: https://www.kaggle.com/residentmario/ramen-ratings
+
+# NOTE: Dubai, Holland and Sarawak are not countries so I combined them with their respected 
+# countries in the data. So please refer to ramen-ratings_edit.csv file in my respository. 
+
+#Plot 1: 
+# I wanted to show the which brands had the most types of ramen. It was challenging since there were 
+#355 brands which is why I chose a word cloud (I also wanted to experiment with this package). It 
+#doesn’t convey much but it highlights the main brands.  Originally it was very cluttered and messy so I 
+#removed brands that had less than 8 types of ramen. 
+
+#Plot 2: 
+#The first plot was not a very good choice because it lacks information. In this plot, it shows that Asian 
+#countries along with the United States dominate the ramen industry. They are the largest producers 
+#and rated the highest with most being above the average line.  Initially I plotted a regular ggplot and 
+#labeled it using ggrepel but it was messy even after abbreviating the country names. An interactive plot 
+#was a much better choice. The legend should be organized by size but after many attempts, I can’t 
+#seem to get it right.   
 
 
 
