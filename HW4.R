@@ -89,6 +89,7 @@ g1
 #the structures of the model, but I will end it here since it requires more explanation of 
 #latent class models. 
 
+## JD: Explanation is clearer. I'm not completely convinced clear that this is good dataviz. It's not always immediately obvious which answers are right, and the patterns of who does better are not so easy to pick out. It's true that there's fun stuff that you can pick out with the stacked bar, but given that your explanation focused only on correct answers, you could convey that information much more clearly by focusing on that aspect, I think.
 
 
 
