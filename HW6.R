@@ -62,12 +62,12 @@ anim_save("myanimation.gif")
 
 # A pyramid style bar plot is better than a stacked bar plot. Any differences/similarities 
 # between the gender and age groups can be detected more clearly. Additionally, with the animated 
-# component we can see which age group changes more with time. 
+# component we can see how the age group changes and which changes more with time. 
 
 # One thing I wanted to do but couldn't figure out was change the scale... 
 # I think it's better to interpret the population in log scale since those 90
 # and older are not visible until 2018. It would be interesting to see how much more longer
-# people are living compared to 50 years ago. I've tried scale_y_log10 and changing it 
+# people are living compared to previous years. I've tried scale_y_log10 and changing it 
 # directly but I kept getting errors? What am I doing wrong?
 
 
