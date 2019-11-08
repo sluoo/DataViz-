@@ -53,7 +53,7 @@ anim_save("myanimation.gif")
 
 ##Explaination
 
-#SOURCE: Table: 17-10-0005-01 (formerly CANSIM 051-0001)
+#SOURCE: Table: 17-10-0005-01 (formerly CANSIM 051-0001) from Statistics Canada.
 
 # This dataset was found on the StatsCanada website which summarizes
 # the demographic trends of the Canadian population over time. 
