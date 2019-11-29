@@ -53,7 +53,7 @@ anim_save("myanimation1.gif")
 
 ##Explaination
 
-#SOURCE: Table: 17-10-0005-01 (formerly CANSIM 051-0001)
+#SOURCE: Table: 17-10-0005-01 (formerly CANSIM 051-0001) from Statistics Canada.
 
 # This dataset was found on the StatsCanada website which summarizes
 # the demographic trends of the Canadian population over time. 
@@ -62,8 +62,16 @@ anim_save("myanimation1.gif")
 
 # A pyramid style bar plot is better than a stacked bar plot. Any differences/similarities 
 # between the gender and age groups can be detected more clearly. Additionally, with the animated 
-# component we can see which age group changes more with time. 
+# component we can see how the age group changes and which changes more with time. 
 
+<<<<<<< HEAD
+=======
+# One thing I wanted to do but couldn't figure out was change the scale... 
+# I think it's better to interpret the population in log scale since those 90
+# and older are not visible until 2018. It would be interesting to see how much more longer
+# people are living compared to previous years. I've tried scale_y_log10 and changing it 
+# directly but I kept getting errors? What am I doing wrong?
+>>>>>>> c749935b422b3572eb92a775d7c42cf07814f3f8
 
 
 
