@@ -13,7 +13,7 @@ df1 <- (df
         %>% select(REF_DATE, GEO, Sex, `Age group`,VALUE)
         %>% filter(GEO == "Canada", Sex != "Both sexes", 
                    str_detect(`Age group`, "to|over"),
-                   REF_DATE %in% c(1971,2018))
+                   REF_DATE %in% c(1971:2018))
         %>% rename(Year = REF_DATE, Geo = GEO, AgeGroup = `Age group`, Population= VALUE))
 
 #Ages counted twice 
@@ -49,7 +49,7 @@ p2 <- (p1
        + ease_aes('linear'))
 
 animate(p2, fps = 2) #slower
-anim_save("myanimation.gif")
+anim_save("myanimation1.gif")
 
 ##Explaination
 
@@ -64,11 +64,6 @@ anim_save("myanimation.gif")
 # between the gender and age groups can be detected more clearly. Additionally, with the animated 
 # component we can see which age group changes more with time. 
 
-# One thing I wanted to do but couldn't figure out was change the scale... 
-# I think it's better to interpret the population in log scale since those 90
-# and older are not visible until 2018. It would be interesting to see how much more longer
-# people are living compared to 50 years ago. I've tried scale_y_log10 and changing it 
-# directly but I kept getting errors? What am I doing wrong?
 
 
 
